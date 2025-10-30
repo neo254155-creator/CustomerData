@@ -46,8 +46,8 @@ class stream{
     pis.connect(pos);
 PIP p=new PIP(pos);
 pop c=new pop(pis);
-p.start();
-c.start();
+p.run();
+c.run();
 
     }
 }
